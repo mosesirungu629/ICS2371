@@ -4,6 +4,11 @@ int main() {
     // Example of a while loop
     int i = 0;
     while (i < 5) {
+        if (i==3)
+        {
+            break;
+        }
+        
         printf("While loop: %d\n", i);
         i++;
     }
@@ -16,7 +21,12 @@ int main() {
     } while (i < 5);
 
     // Example of a for loop
-    for (int j = 0; j < 5; j++) {
+    for (int j = 0; j < 10; j++) {
+        if (j==6)
+        {
+            continue;
+        }
+        
         printf("For loop: %d\n", j);
     }
 
